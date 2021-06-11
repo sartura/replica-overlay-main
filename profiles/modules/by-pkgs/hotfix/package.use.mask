@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Pulls in a large dependency graph and results in build failure
+dev-libs/libxml2 python
+
+# Documentation build issue due to bug in app-text/asciidoc
+# https://bugs.gentoo.org/705122
+net-firewall/nftables gmp doc
+
+# Avoid passing --enable-simd for non-native case
+# https://bugs.gentoo.org/732084
+net-misc/rsync cpu_flags_x86_sse2

@@ -1,0 +1,25 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Latest kernel headers are required for BPF support
+dev-libs/libbpf ~*
+>=sys-kernel/linux-headers-5.8 ~*
+
+# Not keyworded for arm64
+=sys-fs/mtd-utils-2.1.2 **
+
+# Unmask packages for which there are custom ebuilds
+dev-embedded/u-boot-envtools ~*
+
+# Resolve cross-compile issues by unmasking latest versions
+dev-lang/perl ~*
+sys-apps/kbd ~*
+
+# not keyworded for arm64
+net-misc/mstpd **
+
+# not yet stable/keyworded
+sys-devel/elftoolchain **
+dev-libs/uthash **

@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Install busybox by default
+*sys-apps/busybox
+
+# Replace standard GNU packages with BusyBox
+-*>=sys-apps/findutils-4.4
+-*app-arch/bzip2
+-*app-arch/gzip
+-*app-arch/tar
+-*app-arch/xz-utils
+-*app-shells/bash:0
+-*net-misc/coreutils
+-*net-misc/wget
+-*sys-apps/diffutils
+-*sys-apps/file
+-*sys-apps/grep
+-*sys-apps/less
+-*sys-apps/sed
+-*sys-apps/wget
+-*sys-apps/which
+-*sys-devel/gnuconfig
+-*sys-process/procps
+-*virtual/editor
+-*virtual/pager
+
+# This device does not have a keyboard attached
+-*sys-apps/kbd

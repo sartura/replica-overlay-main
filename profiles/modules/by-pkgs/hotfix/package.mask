@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Only special systems should have these packages
+sys-apps/portage
+sys-devel/gcc
+
+# Mask updates to mainline packages for which we have custom ebuilds
+>sys-apps/gentoo-systemd-integration-8
+>sys-kernel/linux-headers-5.11
+
+# Various issues related to cross-compilation
+sys-libs/gdbm
+
+# Issue with: This perl version is probably not supported by perl-cross
+>dev-lang/perl-5.30.3-r1
+
+# Results in build failure: @MKINSTALLDIRS@: No such file or directory
+=sys-apps/kbd-2.2.0-r2

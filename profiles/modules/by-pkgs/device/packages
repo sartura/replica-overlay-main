@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Bring back packages useful for real hardware
+*sys-apps/kbd
+*sys-apps/kmod
+
+# Network access
+*net-misc/openssh

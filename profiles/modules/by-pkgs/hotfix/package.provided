@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Pulls in Portage, which pulls in GCC
+app-admin/perl-cleaner-2.27
