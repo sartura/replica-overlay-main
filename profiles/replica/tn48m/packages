@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Storage and update related packages
+*dev-embedded/u-boot-envtools
+*sys-fs/mtd-utils
+*sys-block/parted
+*sys-fs/e2fsprogs
+
+# Networking
+*net-firewall/nftables
+*net-analyzer/tcpdump
