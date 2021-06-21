@@ -17,9 +17,6 @@ dev-embedded/u-boot-envtools ~*
 dev-lang/perl ~*
 sys-apps/kbd ~*
 
-# not keyworded for arm64
-net-misc/mstpd **
-
 # not yet stable/keyworded
 sys-devel/elftoolchain **
 dev-libs/uthash **
