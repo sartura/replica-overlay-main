@@ -3,3 +3,4 @@
 ../../modules/by-init/systemd
 ../../modules/by-pkgs/device
 ../../modules/by-pkgs/hotfix
+../../modules/by-pkgs/switch

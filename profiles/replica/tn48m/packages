@@ -8,7 +8,3 @@
 *sys-fs/mtd-utils
 *sys-block/parted
 *sys-fs/e2fsprogs
-
-# Networking
-*net-firewall/nftables
-*net-analyzer/tcpdump
