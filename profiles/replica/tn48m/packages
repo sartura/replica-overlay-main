@@ -8,3 +8,4 @@
 *sys-fs/mtd-utils
 *sys-block/parted
 *sys-fs/e2fsprogs
+*sys-apps/lm-sensors
