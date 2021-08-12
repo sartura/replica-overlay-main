@@ -14,8 +14,5 @@ sys-devel/gcc
 # Various issues related to cross-compilation
 sys-libs/gdbm
 
-# Issue with: This perl version is probably not supported by perl-cross
->dev-lang/perl-5.30.3-r1
-
 # Results in build failure: @MKINSTALLDIRS@: No such file or directory
 =sys-apps/kbd-2.2.0-r2
