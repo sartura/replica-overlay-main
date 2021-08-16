@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Networking
+*sys-apps/ethtool
+*sys-apps/iproute2
+*net-wireless/hostapd
+*net-wireless/wireless-regdb
+*net-wireless/iw
