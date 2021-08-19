@@ -2,5 +2,6 @@
 ../../modules/by-pkgs/linux
 ../../modules/by-init/systemd
 ../../modules/by-pkgs/device
+../../modules/by-pkgs/busybox
 ../../modules/by-pkgs/hotfix
 ../../modules/by-pkgs/ap
