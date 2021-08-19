@@ -12,7 +12,6 @@
 -*app-arch/gzip
 -*app-arch/tar
 -*app-arch/xz-utils
--*app-shells/bash:0
 -*net-misc/coreutils
 -*net-misc/wget
 -*sys-apps/diffutils
