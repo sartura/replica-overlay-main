@@ -4,7 +4,7 @@
 #
 
 # Storage and update related packages
-*dev-embedded/u-boot-envtools
+*dev-embedded/u-boot-tools
 *sys-fs/mtd-utils
 *sys-block/parted
 *sys-fs/e2fsprogs

@@ -9,9 +9,7 @@ dev-libs/libbpf ~*
 
 # Not keyworded for arm64
 =sys-fs/mtd-utils-2.1.2 **
-
-# Unmask packages for which there are custom ebuilds
-dev-embedded/u-boot-envtools ~*
+dev-embedded/u-boot-tools ~*
 
 # Resolve cross-compile issues by unmasking latest versions
 dev-lang/perl ~*

@@ -1,1 +1,2 @@
 sys-apps/busybox make-symlinks
+dev-embedded/u-boot-tools envtools
