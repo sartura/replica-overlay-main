@@ -7,8 +7,8 @@
 dev-libs/libbpf ~*
 >=sys-kernel/linux-headers-5.8 ~*
 
-# Not keyworded for arm64
-=sys-fs/mtd-utils-2.1.2 **
+# No stable keyword for arm64
+sys-fs/mtd-utils ~*
 dev-embedded/u-boot-tools ~*
 
 # Resolve cross-compile issues by unmasking latest versions
