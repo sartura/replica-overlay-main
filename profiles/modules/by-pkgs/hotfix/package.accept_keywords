@@ -20,4 +20,4 @@ sys-devel/elftoolchain **
 dev-libs/uthash **
 
 # Unmask latest version to include symlink fixes
-sys-apps/busybox ~*
+=sys-apps/busybox-1.34.0-r1 **
