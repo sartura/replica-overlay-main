@@ -8,7 +8,6 @@ sys-apps/portage
 sys-devel/gcc
 
 # Mask updates to mainline packages for which we have custom ebuilds
->sys-apps/gentoo-systemd-integration-8
 >sys-kernel/linux-headers-5.11
 
 # Various issues related to cross-compilation

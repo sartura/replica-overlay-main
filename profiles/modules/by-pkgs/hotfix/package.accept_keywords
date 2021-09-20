@@ -21,3 +21,6 @@ dev-libs/uthash **
 
 # Unmask latest version to include symlink fixes
 =sys-apps/busybox-1.34.0-r1 **
+
+# Unmask latest unstable version to resolve pkgconfig path issues
+sys-apps/gentoo-systemd-integration ~*
