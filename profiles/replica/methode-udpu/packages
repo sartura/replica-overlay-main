@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Add some packages
+*net-firewall/nftables
+*sys-kernel/linux-firmware
+*dev-embedded/u-boot-envtools
+*sys-fs/mtd-utils
