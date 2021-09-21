@@ -6,5 +6,5 @@
 # Add some packages
 *net-firewall/nftables
 *sys-kernel/linux-firmware
-*dev-embedded/u-boot-envtools
+*dev-embedded/u-boot-tools
 *sys-fs/mtd-utils
