@@ -3,6 +3,9 @@
 # Copyright (c) 2021 Sartura Ltd.
 #
 
+# Install busybox by default
+*sys-apps/busybox
+
 # The intent here is to strip away packages that are large in size or not
 # required for basic operation.
 -*>=sys-devel/patch-2.7
