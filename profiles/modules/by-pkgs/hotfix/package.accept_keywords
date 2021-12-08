@@ -18,12 +18,3 @@ sys-apps/kbd ~*
 # not yet stable/keyworded
 sys-devel/elftoolchain **
 dev-libs/uthash **
-
-# Unmask latest version to include symlink fixes
-sys-apps/busybox ~*
-
-# Unmask latest unstable version to resolve pkgconfig path issues
-sys-apps/gentoo-systemd-integration ~*
-
-# Unmask latest version to resolve compatibility with Linux 5.14
-sys-apps/systemd ~*
