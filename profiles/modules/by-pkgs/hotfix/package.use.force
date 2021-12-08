@@ -1,2 +1,10 @@
-sys-apps/busybox make-symlinks
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2021 Sartura Ltd.
+#
+
+# Force installing symlinks to /bin and custom configuration
+sys-apps/busybox make-symlinks savedconfig
+
+# Only envtools are required
 dev-embedded/u-boot-tools envtools
