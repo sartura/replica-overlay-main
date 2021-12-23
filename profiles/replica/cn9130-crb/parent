@@ -1,0 +1,6 @@
+../../modules/by-arch/arm64
+../../modules/by-pkgs/linux
+../../modules/by-init/systemd
+../../modules/by-pkgs/device
+../../modules/by-pkgs/hotfix
+../../modules/by-pkgs/switch
