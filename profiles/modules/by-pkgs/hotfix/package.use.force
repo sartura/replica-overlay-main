@@ -8,3 +8,7 @@ sys-apps/busybox make-symlinks savedconfig
 
 # Only envtools are required
 dev-embedded/u-boot-tools envtools
+
+# `su` program requires pam support
+sys-apps/util-linux pam
+sys-apps/systemd pam
