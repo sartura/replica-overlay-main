@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2022 Sartura Ltd.
+#
+
+# Add packages
+*sys-devel/llvm
+*net-misc/openssh
+*sys-devel/autoconf
+*sys-devel/automake
+*sys-devel/binutils
+*app-misc/ca-certificates
+*net-misc/curl
+*sys-apps/file
+*dev-vcs/git
+*sys-devel/libtool
+*sys-devel/m4
+*sys-devel/make
+*sys-libs/glibc
+*dev-util/pkgconf
+*dev-lang/python
+*dev-lang/rust-bin
+*sys-devel/gcc
